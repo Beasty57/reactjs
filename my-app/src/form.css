@@ -1,0 +1,89 @@
+/* .body{
+animation-name: example;}
+.logsign{
+    height: 500px;
+    width: 400px;
+    right: 0px;
+    border: 3px solid transparent;
+    left: 460px;
+    margin: 20px;
+    border-radius: 9px;
+    background-color: white;
+    }
+    .log{
+      top: 80px;
+      left:40px ;
+      border-radius: 9px;
+      width: 150px;
+      animation-name: example;
+    
+    }
+    .sign{
+    
+     top: 80px;
+      left:200px ;
+      border-radius: 9px;
+      width: 150px;
+     
+    
+    }
+    .form{
+      top: 200px;
+      left: px;
+    }
+    .form1{
+      top: 10px;
+    }
+    .forg{
+      top: 90px;
+      right: 130px;
+    }
+    .head{
+      left: 85px;
+    }
+    .but{
+      top: 130px;
+      
+    }
+    .but1{
+      width: 150px;
+    }
+    .but2{
+      width: 150px;
+    }
+    .btn3{
+      top: 130px;
+      border-radius: 8px;
+    width: 380px;
+    height: 40px;
+    font-size: 20px;
+    }
+    .lst{
+      top: 100px;
+    }
+    .last{
+      top: 200px;
+      left: 95px;
+    }
+    .signup{
+      color: deeppink;
+    }
+    .root,.log,.btn3 {
+    
+      animation: pulse 5s infinite;
+    }
+    
+    @keyframes pulse {
+      0% {
+        background-color: #001F3F;
+      }
+      100% {
+        background-color: #FF4136;
+      }
+    }
+    
+    html,
+    body {
+      height: 100%;
+    }
+     */

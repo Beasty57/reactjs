@@ -1,0 +1,1 @@
+export const API='https://642e55868ca0fe3352cd4f5c.mockapi.io/FS'

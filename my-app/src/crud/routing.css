@@ -1,0 +1,72 @@
+
+
+
+
+
+.input_container{
+    text-align: center;
+  }
+  .awsome_input{
+    
+    border: none;
+    background: transparent;
+    display: block;
+    
+  }
+  .awsome_input_border{
+    display:inline-block;
+    width:0px;
+    height: 2px;
+    background: #0ed6f0;
+    position: relative;
+   
+    -webkit-transition: all ease-in-out .15s;
+    -o-transition: all ease-in-out .15s;
+    transition: all ease-in-out .15s;
+  }
+  .awsome_input,
+  .awsome_input:active, 
+  .awsome_input:focus{
+    outline: none;
+border: black 1px;
+  }
+  .awsome_input.awsome_input_border,
+  .awsome_input:active+.awsome_input_border, 
+  .awsome_input:focus+.awsome_input_border{
+    width:100%;
+    
+  }
+
+     /* Form container */
+	 .form-container {
+		width: 300px;
+		margin: 50px auto; /* Adjust this value to change the position of the form */
+	  }
+  
+	  /* Form input field */
+	  .form-container input {
+		width: 100%;
+		height: 10px;
+		padding: 10px;
+		font-size: 16px;
+	  }
+  
+	  /* Form placeholder animation */
+	  .form-container label {
+		position: absolute;
+		top: 60px;
+		left: 190px;
+		opacity: 0.5;
+		font-size: 16px;
+		pointer-events: none;
+		transition: all 0.3s ease-in-out;
+	  }
+  
+	  /* Apply animation to placeholder when input is focused or has value */
+	  .form-container input:focus + label,
+	  .form-container input:valid + label {
+		top: 5px; /* Adjust this value to change the vertical position of the placeholder */
+		opacity: 1;
+	  }
+	
+
